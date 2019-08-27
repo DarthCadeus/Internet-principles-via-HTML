@@ -18,6 +18,13 @@ body {
 	padding-bottom: 1%;
 }
 
+.main-nav li a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	transition-duration: .3s;
+}
+
 .main-nav li a {
-	color: white;
+	color: #dddddd;
+	text-decoration: none;
 }
