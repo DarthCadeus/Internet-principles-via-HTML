@@ -1,5 +1,23 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
 .main-nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	background: linear-gradient(to right, #2c3f66, #5e617c);
+}
+
+.main-nav li {
+	display: inline-block;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.main-nav li a {
+	color: white;
 }
