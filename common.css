@@ -43,10 +43,19 @@ body {
 	margin-left: 1vw;
 	position: fixed;
 	top: 8vh;
-	text-overflow: wrap;
+	overflow-wrap: break-word;
 }
 
 .toc-list-item a {
 	color: #eeeeee;
 	text-decoration: none;
+}
+
+p, td {
+	font-size: 30px;
+	font-family: "Avenir Next", "Avenir", serif;
+}
+
+h1 {
+	font-size: 50px;
 }
