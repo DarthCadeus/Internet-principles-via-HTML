@@ -8,6 +8,10 @@ body {
 	margin: 0;
 	padding: 0;
 	background: linear-gradient(to right, #2c3f66, #5e617c);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .main-nav li {
@@ -33,6 +37,7 @@ body {
 
 .left-bar {width: 20vw;}
 .right-bar {width: 78vw;}
+.right-bar {margin-top: 5vh;}
 
 .toc-list {
 	background-color: #7a92a0;
