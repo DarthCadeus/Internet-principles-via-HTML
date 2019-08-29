@@ -20,7 +20,7 @@ body {
 
 .main-nav li a:hover {
 	color: #ffffff;
-	text-decoration: underline;
+	font-weight: bolder;
 	transition-duration: .3s;
 }
 
