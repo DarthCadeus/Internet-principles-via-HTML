@@ -64,3 +64,28 @@ p, td {
 h1 {
 	font-size: 50px;
 }
+
+th {
+	background-color: #7a92a0;
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+td {padding: 10px;}
+
+tr td:first-child {
+	font-weight: bold;
+	background-color: #8fabbf;
+	color: white;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #c8d9e5;
+}
+
+.footer-wrapper {
+	text-align: center;
+	margin-bottom: 10px;
+}
